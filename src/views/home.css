@@ -1,0 +1,4 @@
+.page-cont{
+    display: flex;
+    flex-direction: column;
+}

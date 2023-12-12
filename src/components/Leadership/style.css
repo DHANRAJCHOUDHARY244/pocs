@@ -1,0 +1,18 @@
+.w-100{
+    height: 250px;
+}
+.lead-img-txt .txt-cont{
+    height: 250px;
+}
+.lead-img-txt .head{
+    color: #fff;
+    font-weight: bold;
+}
+.lead-img-txt span{
+    color: #bbb9b9;
+    font-weight: bold;
+}
+.lead-img-txt p{
+    color: #ffffff;
+    font-size: 16px;
+}

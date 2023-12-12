@@ -1,0 +1,128 @@
+.transition {
+  transition: 0.3s cubic-bezier(0.3, 0, 0, 1.3);
+}
+
+/* CSS for the card */
+.card {
+  height: 100%; /* Fill the parent container's height */
+  width: 100%; /* Fill the parent container's width */
+  transition: 0.3s cubic-bezier(0.3, 0, 0, 1.3);
+  position: absolute; 
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.parent-container {
+  width: 350px; 
+  height: 450px; 
+  overflow-x: hidden;
+  position: relative; 
+  background-color: #a19c9a;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 20px 0 20px 0;
+}
+
+.parent-container:hover {
+  height: 450px;
+  width: 350px;
+  transform: scale(1.009);
+  background-color: white;
+}
+
+.card:hover .cta-container {
+  display: inline;
+  margin-top: 380px;
+}
+.card:hover .card_circle {
+  background-size: cover;
+ 
+  margin-top: -270px;
+  border-radius: 50%;
+}
+.card:hover h2 {
+  background: rgba(204, 204, 204, 0.39);
+  color: black;
+  margin-top: 100px;
+  padding: 5px;
+  width: fit-content;
+  border-radius:0 20px 20px 0;
+}
+.card:hover p {
+  margin-top: 200px;
+}
+.card_circle {
+  background-color: #3487f7;
+  background-size: cover;
+  height: 400px;
+  margin-left: -25px;
+  border-radius: 0 0 50% 50%;
+  margin-top: -130px;
+  position: absolute;
+  width: 450px;
+}
+.parent-container h2 {
+  color: #fafafa;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 150px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 9999;
+}
+.parent-container p {
+  font-weight: normal;
+  margin-top: 300px;
+  position: absolute;
+  text-align: justify;
+  z-index: 9999;
+  font-size: 14px;
+  letter-spacing: 3px;
+  line-height: 1.43;
+  font-weight: bold;
+  padding: 10px 30px 10px 30px;
+  color: #292321;
+}
+.parent-container:hover p {
+  padding: 20px;
+  color: #3b2722;
+  font-size: 16px;
+}
+.cta-container {
+  display: none;
+  margin-top: 320px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 9999;
+}
+.cta {
+  border-radius: 2px;
+  color: #333333;
+  display: inline-block;
+  font-size: 10px;
+  font-weight:bold;
+  height: 36px;
+  letter-spacing: 0.5px;
+  line-height: 36px;
+  padding: 0 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.2s ease-out;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cta:hover {
+  background-color: #3487f7;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #fff;
+  -moz-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+

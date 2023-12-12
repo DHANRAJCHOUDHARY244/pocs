@@ -1,0 +1,49 @@
+.CardFirstComp {
+    width: 40%;
+    overflow-x: hidden;
+    box-shadow: 0 0 10px rgba(216, 216, 216, 0.5);
+    border-radius: 5px;
+    margin: 5px;
+    padding-bottom: 20px;
+  }
+  
+  .CardFirstComp img {
+    max-width: 100%;
+  }
+  
+  .CardFirstComp-head span {
+    display: block;
+    font-weight: 600;
+    line-height: 1.25;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+  }
+  
+  .CardFirstComp-head p {
+    color: #ababab;
+    text-align: justify;
+    padding: 10px 30px;
+  }
+  
+  .CardFirstComp-link {
+    visibility: hidden;
+    text-align: center;
+  }
+  
+  .CardFirstComp-link a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px; 
+  }
+  
+  .CardFirstComp:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    background-color: white;
+  }
+  
+  .CardFirstComp:hover .CardFirstComp-link {
+    visibility: visible;
+  }
+  

@@ -1,0 +1,77 @@
+
+.wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 50px;
+}
+.child1 {
+  width: 50%;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.child1:hover{
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.child2 {
+   width: 50%;
+  display: flex;
+  align-content: space-between;
+  flex-direction: column;
+}
+.child2 span {
+  font-size: 18px;
+  color: blue;
+  font-weight: bold;
+}
+.child2 h1{
+    font-weight: bold;
+}
+.count-wrap{
+    display: flex;
+    gap: 50px;
+}
+.count-wrap div span{
+    font-size: 40px;
+    color: blue;
+}
+.count-wrap div:nth-child(2) span{
+    font-size: 40px;
+    color: red;
+}
+@media (min-width: 768px) and (max-width: 1200px)  {
+  .child1 img{
+    width: 400px;
+    height: 400px;
+  }
+  .child2 h1{
+    font-size: calc(1.5rem + 1vw);
+  }
+  .count-wrap div span{
+      font-size: 30px;
+  }
+  .count-wrap div:nth-child(2) span{
+      font-size: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .child1 img{
+    width: 300px;
+    height: 300px;
+  }
+  .wrap {
+    flex-direction: column; /* Change to a one-column layout */
+  }
+.wrap2{
+    flex-direction: column-reverse !important;
+  }
+
+  .child1,
+  .child2 {
+    width: 100%; /* Occupy the full width of the container */
+  }
+}

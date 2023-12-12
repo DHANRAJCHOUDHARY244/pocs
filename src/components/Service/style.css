@@ -1,0 +1,31 @@
+.ser-comp-cont{
+    margin-top: 50px;
+}
+.ser-comp-cont-head h1{
+    color: #333333;
+    font-weight: 700;
+    line-height: 1.41;
+    font-size: 35px;
+    text-align: center;
+}.ser-comp-cont-head h1 span{
+    color: #086AD8;
+}
+.ser-comp-cont-img-txt .txt{
+    text-align: justify;
+    font-size: 20px;
+    color: #696969;
+    line-height: 1.74;
+}
+.ser-comp-cont-img-t{
+    display: flex;
+    align-items: center;
+}
+.ser-comp-cont-img-txt .img img{
+    height: 500px;
+}
+.ser-comp-cont-txt{
+    text-align: justify;
+    font-size: 20px;
+    color: #696969;
+    line-height: 1.74;
+}

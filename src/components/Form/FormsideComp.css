@@ -1,0 +1,29 @@
+.form-side {
+  margin-top: -19%;
+  margin-right: 20%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.form-side-img {
+  display: flex;
+  justify-content: center;
+}
+.form-side-cont-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  padding: 10px;
+  gap: 30px;
+}
+.form-side-cont-info-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+  padding: 20px 20px;
+  text-align: center;
+}

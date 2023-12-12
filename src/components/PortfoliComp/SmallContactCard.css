@@ -1,0 +1,40 @@
+.scc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding: 20px;
+    background: linear-gradient(124deg, rgba(21, 83, 165, 0.533) 36%, rgba(6, 146, 240, 0.667) 70%);
+}
+.scc .scc-head{
+    width: 40%;
+}
+.scc .scc-head h1{
+    text-align:justify;
+    font-size: 30px;
+    font-weight: bold;
+    color: #d4d4d4;
+}
+.scc .scc-head h1 span{
+    color: blue;
+}
+.scc .scc-btn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 40%;
+}
+.scc .scc-btn a{
+    text-align: center;
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.scc .scc-btn .scc-btn1{
+    background: #f09e06;
+}
+.scc .scc-btn .scc-btn2{
+    background: #0252ca;
+}

@@ -1,0 +1,19 @@
+.navbar {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0) !important;
+    
+  }
+  .static-header{
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+  #collapsible-nav-dropdown{
+    color: white;
+  }
+  #collapsible-nav-dropdown:hover{
+    color: #96695E !important;
+  }

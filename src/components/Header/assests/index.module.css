@@ -1,0 +1,7 @@
+.nav_itemfont{
+    font-size: 18px;
+    color: white;
+}
+.nav_itemfont:hover{
+    color: #96695E;
+}

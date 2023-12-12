@@ -1,0 +1,31 @@
+.row{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding:0 30px ;
+}
+.row-child{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 5px;
+    column-gap: 5px;
+    padding:0 30px ;
+}
+.column{
+    text-align: center;
+    box-shadow: 30px 30px 100px rgb(123, 123, 123);
+    border-right: 2.5px solid rgb(165, 165, 165);
+    border-left: 2.5px solid rgb(165, 165, 165);
+    border-top: 5px solid rgb(165, 165, 165);
+    border-bottom: 5px solid rgb(165, 165, 165);
+}/* style.module.css */
+.showMoreButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.showMoreButton button{
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  

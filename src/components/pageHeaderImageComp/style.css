@@ -1,0 +1,28 @@
+.headerimageComp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-size:cover;
+  background-position: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+}
+.hic-head h1 {
+  font-size: 40px;
+  color: rgb(226, 223, 219);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.hic-cont {
+  font-size: 15px;
+  color: rgb(167, 162, 155);
+  text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.hic-con-link {
+  text-decoration: none;
+  color: rgb(167, 162, 155);
+}
